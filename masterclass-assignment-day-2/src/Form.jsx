@@ -7,6 +7,7 @@ const Form = () => {
     lastName: '',
     email: '',
     location: ''
+    
   });
 
   const [savedData, setSavedData] = useState([]);

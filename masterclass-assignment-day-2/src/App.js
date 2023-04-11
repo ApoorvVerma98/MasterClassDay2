@@ -1,13 +1,13 @@
 import './App.css';
-// import Form from './Form';
-import PostTable from './PostTable';
+import Form from './Form';
+// import PostTable from './PostTable';
 
 
 function App() {
   return (
     <div className="App">
-      {/* <Form /> */}
-      <PostTable />
+      <Form />
+      {/* <PostTable /> */}
     </div>
   );
 }
